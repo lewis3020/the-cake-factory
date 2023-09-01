@@ -17,7 +17,8 @@ ul {
     list-style: none;
     gap: 2em;
     color: black;
-    margin-top: 60px;
+    margin-top: 56px;
+    margin-left: 40px;
 }
 
 li {
@@ -25,9 +26,17 @@ li {
     font-weight: 600;
 }
 
-li:hover {
+li > a:hover {
     transition: .3s;
     color: red;
+    transition: .2s;
+    color: rgb(218, 63, 63);
+    transition-timing-function: ease-in;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);  
 }
 
 .contact-us {
