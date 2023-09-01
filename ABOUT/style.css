@@ -1,0 +1,88 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: rgb(236, 234, 231);
+}
+
+.nav {
+    display: flex;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.logo > img {
+    display: flex;
+    width: auto;
+    height: 120px;
+    margin-left: 43em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    color: black;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+li:hover {
+    transition: .3s;
+    color: red;
+}
+
+.cards > a {
+    text-decoration: none;
+    color: black;  
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);  
+}
+
+li > a:hover {
+    transition: .2s;
+    color: rgb(218, 63, 63);
+    transition-timing-function: ease-in;
+}
+
+
+.lsb {
+    margin-top: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 254, 252);
+}
+
+.main-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.map {
+    display: flex;
+    justify-content: left;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+}
+
+iframe {
+    display: flex;
+    border: 6px solid black;
+    border-radius: 10px;
+    width: auto;
+}
