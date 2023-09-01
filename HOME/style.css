@@ -48,39 +48,15 @@ li {
     font-size: 20px;
     padding: 20px;
     cursor: pointer;
-    transition: .4s;
+    transition: .6s;
 }
 
-li:hover {
-    transition: .5s;
+li > a:hover {
+    transition: .2s;
     color: rgb(218, 63, 63);
     border-radius: 5px;
-    padding: 20px;
     transform: translateY( 2px);
     transition-timing-function: ease-in;
-}
-
-
-button {
-    height: 40px;
-    width: 100px;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 50px;
-    margin-right: 20px;
-    background-color: rgb(211, 25, 1);
-    border: none;
-    padding: 0;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    cursor: pointer;
-    transition: .5s;
-}
-
-button:hover {
-    border-radius: 8px;
-    background-color: blue;
-    box-shadow: 2px 2px 3px 3px blue;
 }
 
 .container {
@@ -95,8 +71,12 @@ button:hover {
 
 .cards > a {
     text-decoration: none;
-    color: black;
-    
+    color: black;  
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
 }
 
 .cakes > p {
@@ -142,7 +122,8 @@ button:hover {
 }
 
 .cakes {
-    background-color: wheat;
+    background-color: rgba(10, 10, 10, 0.226);
+    color: rgb(156, 156, 156);
     width: 200px;
     border-radius: 6px; 
     padding: 25px;
@@ -164,6 +145,5 @@ button:hover {
 
 .cakes > p {
     text-align: center;
-    color: rgb(0, 0, 0);
     font-family: 'Rajdhani', sans-serif;
 }
